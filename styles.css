@@ -1,0 +1,41 @@
+﻿Copy
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider .indicators {
+    display: none;
+}
+
+.slider .slides img.blurred-image {
+    height: 600px;
+    object-fit: cover;
+    filter: blur(3px) brightness(0.6);
+}
+
+.about, .contact {
+    padding: 50px 0;
+}
+
+    .about h2, .contact h2 {
+        margin-bottom: 30px;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+    .contact h5 {
+        margin-top: 20px;
+    }
+
+    .contact form {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+footer .container {
+    padding-top: 20px;
+}
